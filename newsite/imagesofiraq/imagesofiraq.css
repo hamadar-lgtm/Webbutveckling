@@ -1,0 +1,54 @@
+@charset "UTF-8";
+body section{
+    border: 4px
+}
+body{
+    gap: 4px;
+    margin: 0;
+    height: 150vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 0.5fr 1fr;
+    grid-template-areas: 
+        ".  a  b b"
+        "c  d  d e"
+}
+
+#a{
+    grid-area: a; 
+    background: url(../images/images\ \(1\).jpg);
+    background-size: cover;
+}
+#b{
+    grid-area: b; 
+    background: url(../images/images\ \(2\).jpg);
+    background-size: cover;
+
+}
+#c{
+    grid-area: c;
+    background: url(../images/Irak-foto-Unsplash-Saad-Salim.jpg);
+    background-size: cover;
+
+}
+#d{
+    grid-area: d;
+    background: url(../images/nedladdning.jpg);
+    background-size: cover;
+
+}
+#e{
+    grid-area: e;
+    background: url(../images/nedladdning\ \(1\).jpg);
+    background-size: cover;
+
+}
+
+
+nav a{
+    background-color: black;
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+}

@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body section{
+    border: 4px
+}
+body{
+    gap: 10px;
+    margin: 0;
+    height:150vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    display:grid;
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+}
+
+#a{
+    background-color: red;
+    color: white;
+    grid-area: a; 
+    padding-left: 20px;
+  
+}
+#b{
+    grid-area: b; 
+
+    padding-top: 45px;
+}
+#c{
+    grid-area: c; 
+    padding: 30px;
+    color: white;
+    background-color: black;
+    padding-top: 45px;
+}
+
+#d{
+    grid-area: d; 
+    background: url(../images/baghdad-breathtaking-view-m8dhcz5bommewovi.jpg);
+    background-size: cover;
+}
+
+#e{
+    grid-area: e; 
+    background: url(../images/mosul\ 8k.jpg);
+    background-size: cover;
+}
+#f{
+    grid-area: f; 
+    background: url(../images/basra\ 8k.jpg);
+    background-size: cover;
+}
+
+
+nav a{
+    background: white;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    }

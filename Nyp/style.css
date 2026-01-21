@@ -1,0 +1,94 @@
+body{
+   background:  wheat;
+    margin: 30px;
+    padding: 0% 20%;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr ;
+
+    grid-template-areas:
+    "A B C"
+    "D . E"
+    "F G H"
+    
+    "I T T "
+    "J T T "
+    
+    
+    
+    ;
+}
+
+#a{
+    grid-area:A ;
+    background: url(/images/a.jpg);
+    background-size: cover;
+    
+}
+
+#b{
+    grid-area:B ;
+    background: url(/images/b.webp);
+    background-size: cover;
+}
+
+#c{
+    grid-area: C;
+    background: url(/images/c.jpg);
+    background-size: cover;
+    border-top-right-radius: 50px;
+}
+
+#d{
+    grid-area: D;
+    background: url(/images/d.jpg);
+    background-size: cover;
+}
+
+#e{
+    grid-area:E ;
+    background: url(/images/e.jpg);
+    background-size: cover;
+    
+
+}
+
+#f{
+    grid-area: F;
+    background: url(/images/f.jpg);
+    background-size: cover;
+}
+
+#g{
+    grid-area: G;
+    background: url(/images/g.webp);
+    background-size: cover;
+   
+}
+#h{
+    grid-area: H;
+    background: url(/images/h.jpg);
+    background-size: cover;
+    border-bottom-right-radius: 50px;
+}
+#i{
+    grid-area: I ;
+    background: url(/images/i.jpg);
+    background-size: cover;
+}
+#j{
+    grid-area: J ;
+    background: url(/images/j.jpg);
+    background-size: cover;
+}
+
+#t{ 
+    grid-area: T ;
+
+    font-family: "Sofia";
+    font-size: 20px;
+    margin-top: 150px;
+    text-align: center;
+    
+
+}
